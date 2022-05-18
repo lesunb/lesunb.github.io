@@ -5,6 +5,7 @@
 = LaDeCIC - Software Dependability @CIC 
 Prof. Dr. Genaína N. Rodrigues <genaina@unb.br> 
 :description: LES-UnB
+:og:image: ./images/favicon.png 
 :icons: image
 :icontype: png
 :favicon: ./images/favicon.png
