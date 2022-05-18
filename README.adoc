@@ -14,7 +14,6 @@ Genaína <genaina@unb.br>
 |<<top,Home>>|<<Chamada para trabalhos>>
 |=======================
 [.right.text-center]
-image::images/profile.jpg[role=left]
 
 == Chamada para trabalhos
 [[robomax_gazebo]]
