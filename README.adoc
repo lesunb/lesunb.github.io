@@ -1,6 +1,6 @@
 :last-update-label!:
-= Projetos LES-UnB
-Genaína <genaina@unb.br>
+= LaDeCIC - Software Dependability @CIC 
+Prof. Dr. Genaína N. Rodrigues <genaina@unb.br> https://genaina.github.io:"(🔗)"
 :description: LES-UnB
 :icons: image
 :icontype: png
@@ -13,13 +13,13 @@ Genaína <genaina@unb.br>
 |=======================
 |<<top,Home>>|<<Chamada para trabalhos>>
 |=======================
-[.right.text-center]
 
 == Chamada para trabalhos
 [[robomax_gazebo]]
+
 Implementando ambiente de validação para robos de serviço em ambiente simulado
 
-Curso Alvo:: Eng. Mecatrônica
+Curso Alvo::Eng. Mecatrônica
 
 Robôs de serviço (em inglês, Service Robots) são aplicações robóticas em que robôs executam tarefas úteis para humanos podendo substituí-los em tarefas perigosas ou entediantes. Exemplos de ambientes em que robôs de serviço podem operar são hospitais e restaurantes. Sistemas multi-robos são normalmente aplicados nesses ambientes. Rizk et al. cite:[rizk_2019] descreve um *workflow* para sistemas multi-robôs com 4 atividades principais: (i) decomposição de tarefas, (ii) formação de coalisão, (iii) alocação de tarefas e (iv) planejamento e controle.  Sendo que na maior parte de propostas da litaratura as atividades i, ii, iii são dirigidas por um operador humano. Uma aplicações com alto grau de autonomia, é definida por Rizk, como uma em que o software realize autonomamente as fases do workflow. 
 
