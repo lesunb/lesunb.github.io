@@ -1,0 +1,74 @@
+@software{ros,
+  author = {{Stanford Artificial Intelligence Laboratory et al.}},
+  title = {Robotic Operating System},
+  url = {https://www.ros.org},
+  version = {ROS Melodic Morenia},
+  date = {2018-05-23},
+  year= {2018}
+}
+@software{gazebo,
+  title = {Gazebo},
+  url = {https://www.gazebo.org},
+}
+
+
+@article{rodrigues_architecture_2022,
+  author  = "Rodrigues, Gabriel and Caldas, Ricardo and Araujo, Gabriel and Moraes, Vicente and Rodrigues, Genaína and Pelliccione, Patrizio",
+  title   = "An Architecture for Mission Coordination of Heterogeneous Robots",
+  journal = "The Journal of Systems & Software",
+  year    = {2022},
+  url = {https://doi.org/10.1016/j.jss.2022.111363},
+  volume  = "x",
+  number  = "x",
+  pages   = "x"
+}
+
+
+@article{rodrigues_goald_2019,
+  title = {{{GoalD}}: {{A Goal-Driven}} Deployment Framework for Dynamic and Heterogeneous Computing Environments},
+  author = {Rodrigues, Gabriel S. and Guimar{\~a}es, Felipe P. and Rodrigues, Gena{\'i}na N. and Knauss, Alessia and de Ara{\'u}jo, Jo{\~a}o Paulo C. and Andrade, Hugo and Ali, Raian},
+  year = {2019},
+  journal = {Information and Software Technology},
+  volume = {111},
+  pages = {159--176},
+  issn = {0950-5849},
+  doi = {10.1016/j.infsof.2019.04.003},
+  abstract = {Context Emerging paradigms like Internet of Things and Smart Cities utilize advanced sensing and communication infrastructures, where heterogeneity is an inherited feature. Applications targeting such environments require adaptability and context-sensitivity to uncertain availability and failures in resources and their ad-hoc networks. Such heterogeneity is often hard to predict, making the deployment process a challenging task. Objective This paper proposes GoalD as a goal-driven framework to support autonomous deployment of heterogeneous computational resources to fulfill requirements, seen as goals, and their correlated components on one hand, and the variability space of the hosting computing and sensing environment on the other hand. Method GoalD comprises an offline and an online stage to fulfill autonomous deployment by leveraging the use of goals. Deployment configuration strategies arise from the variability structure of the Contextual Goal Model as an underlying structure to guide autonomous planning by selecting available as well as suitable resources at runtime. Results We evaluate GoalD on an existing exemplar from the self-adaptive systems community \textendash{} the Tele Assistance Service provided by Weyns and Calinescu [1]. Furthermore, we evaluate the scalability of GoalD on a repository consisting of 430,500 artifacts. The evaluation results demonstrate the usefulness and scalability of GoalD in planning the deployment of a system with thousands of components in a few milliseconds. Conclusion GoalD is a framework to systematically tackle autonomous deployment in highly heterogeneous computing environments, partially unknown at design-time following a goal-oriented approach to achieve the user goals in a target environment. GoalD has demonstrated itself able to scale for deployment planning dealing with thousands of components in a few milliseconds.},
+  keywords = {Autonomous deployment,Contextual goal modelling,Deployment planning,Heterogeneous computational resources}
+}
+
+
+@inproceedings{askarpour_robomax_2021,
+  title = {{{RoboMAX}}: {{Robotic Mission Adaptation eXemplars}}},
+  booktitle = {Proceedings of the 16th {{International Symposium}} on {{Software Engineering}} for {{Adaptive}} and {{Self}}-{{Managing Systems}}},
+  author = {Askarpour, Mehrnoosh and Tsigkanos, Christos and Menghi, Claudio and Calinescu, Radu and Pelliccione, Patrizio and Garcia, Sergio and J. von Oertzen, Tim and Wimmer, Manuel and Berardinelli, Luca and Rossi, Matteo and Bersani, Marcello M. and Rodrigues, Gabriel S.},
+  date = {2021-05},
+  year = {2021},
+  publisher = {{ACM}},
+  location = {{Madrid, Spain}},
+  eventtitle = {{{SEAMS}}}
+}
+
+@book{bass_software_2021,
+  title = {Software Architecture in Practice},
+  author = {Bass, Len and Clements, Paul and Kazman, Rick},
+  year = {2021},
+  isbn = {978-0-13-688609-9 978-0-13-688597-9},
+  langid = {english},
+  annotation = {OCLC: 1303327273}
+}
+
+
+@phdthesis{rodrigues_autonomic_2016,
+  type = {{Disserta\c{c}\~ao (Mestrado em Inform\'atica)}},
+  title = {{Autonomic goal-driven deployment in heterogeneous computing environments}},
+  author = {Rodrigues, Gabriel S.},
+  year = {2016},
+  address = {{Bras\'ilia}},
+  abstract = {Vemos um crescente interesse em aplica\c{c}\~oes que devem contar com ambientes de computa\c{c}\~ao heterog\^eneos, como a Internet das Coisas (IoT). Esses aplicativos s\~ao destinados a executar em uma ampla gama de dispositivos com diferentes recursos computacionais dispon\'iveis. Para lidar com algum tipo de heterogeneidade, como dois tipos poss\'iveis de processadores gr\'aficos em um computador pessoal, podemos usar abordagens simples como um script que escolhe a biblioteca de software certa a ser copiada para uma pasta. Essas abordagens simples s\~ao centralizadas e criadas em tempo de design. Eles requerem um especialista ou equipe para controlar todo o espa\c{c}o de variabilidade. Dessa forma, essas abordagens n\~ao s\~ao escal\'aveis para ambientes altamente heterog\^eneos. Em ambientes altamente heterog\^eneos, \'e dif\'icil prever o ambiente computacional em tempo de projeto, implicando provavelmente indecidibilidade na configura\c{c}\~ao correta para cada ambiente. Em nosso trabalho, propomos GoalD: um m\'etodo que permite a implanta\c{c}\~ao aut\^onoma de sistemas, refletindo sobre os objetivos do sistema e seu ambiente computacional. Por implanta\c{c}\~ao aut\^onoma, queremos dizer que o sistema \'e capaz de encontrar o conjunto correto de componentes para o ambiente computacional alvo, sem interven\c{c}\~ao humana. N\'os avaliamos nossa abordagem em um estudo de caso: conselheiro de esta\c{c}\~ao de abastecimento, onde uma aplica\c{c}\~ao aconselha um motorista onde reabastecer / recarregar seu ve\'iculo. N\'os projetamos a aplica\c{c}\~ao com variabilidade em n\'ivel de requisitos, arquitetura e implanta\c{c}\~ao, o que pode permitir que a aplica\c{c}\~ao projetada seja executada em diferentes dispositivos. Para cen\'arios com diferentes ambientes, foi poss\'ivel planejar a implanta\c{c}\~ao de forma aut\^onoma. Al\'em disso, a escalabilidade do algoritmo que planeja a implanta\c{c}\~ao foi avaliada em um ambiente simulado. Os resultados mostram que usando a abordagem \'e poss\'ivel planejar de forma aut\^onoma a implanta\c{c}\~ao de um sistema com milhares de componentes em poucos segundos.},
+  copyright = {Acesso Aberto},
+  langid = {portuguese},
+  school = {Universidade de Bras\'ilia}
+}
+
+
