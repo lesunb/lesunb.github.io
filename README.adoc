@@ -21,7 +21,7 @@ Prof. Dr. Genaína N. Rodrigues <genaina@unb.br>
 
 
 [[mrs_sim]]
-=== Implementando ambiente de validação para robos de serviço em ambiente simulado
+=== Validação de robos de serviço em ambiente simulado
 Público Avlo:: Alunos de TG1 em Eng. Mecatrônica
 
 Robôs de serviço (em inglês, Service Robots) são aplicações robóticas em que robôs executam tarefas úteis para humanos podendo substituí-los em tarefas perigosas ou entediantes. Exemplos de ambientes em que robôs de serviço podem operar são hospitais e restaurantes. Sistemas multi-robos são normalmente aplicados nesses ambientes. Rizk et al. cite:[rizk_cooperative_2019] descreve um _workflow_ para sistemas multi-robôs com 4 atividades principais: (i) decomposição de tarefas, (ii) formação de coalisão, (iii) alocação de tarefas e (iv) planejamento e controle.  Sendo que na maior parte de propostas da litaratura as atividades i, ii, iii são dirigidas por um operador humano. Uma aplicações com alto grau de autonomia, é definida por Rizk, como uma em que o software realize autonomamente as fases do workflow. 
