@@ -15,9 +15,10 @@ Prof. Dr. Genaína N. Rodrigues <genaina@unb.br> https://genaina.github.io:"(�
 |=======================
 
 == Chamada para trabalhos
-[[robomax_gazebo]]
 
-Implementando ambiente de validação para robos de serviço em ambiente simulado
+
+=== Implementando ambiente de validação para robos de serviço em ambiente simulado
+[[robomax_gazebo]]
 
 Curso Alvo::Eng. Mecatrônica
 
