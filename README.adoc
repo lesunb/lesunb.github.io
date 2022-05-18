@@ -1,6 +1,6 @@
 :last-update-label!:
 = LaDeCIC - Software Dependability @CIC 
-Prof. Dr. Genaína N. Rodrigues <genaina@unb.br> https://genaina.github.io:"(🔗)"
+Prof. Dr. Genaína N. Rodrigues link:https://genaina.github.io:[🔗] <genaina@unb.br> 
 :description: LES-UnB
 :icons: image
 :icontype: png
@@ -18,11 +18,11 @@ Prof. Dr. Genaína N. Rodrigues <genaina@unb.br> https://genaina.github.io:"(�
 
 
 === Implementando ambiente de validação para robos de serviço em ambiente simulado
-[[robomax_gazebo]]
+[[mrs_sim]]
 
 Curso Alvo::Eng. Mecatrônica
 
-Robôs de serviço (em inglês, Service Robots) são aplicações robóticas em que robôs executam tarefas úteis para humanos podendo substituí-los em tarefas perigosas ou entediantes. Exemplos de ambientes em que robôs de serviço podem operar são hospitais e restaurantes. Sistemas multi-robos são normalmente aplicados nesses ambientes. Rizk et al. cite:[rizk_2019] descreve um *workflow* para sistemas multi-robôs com 4 atividades principais: (i) decomposição de tarefas, (ii) formação de coalisão, (iii) alocação de tarefas e (iv) planejamento e controle.  Sendo que na maior parte de propostas da litaratura as atividades i, ii, iii são dirigidas por um operador humano. Uma aplicações com alto grau de autonomia, é definida por Rizk, como uma em que o software realize autonomamente as fases do workflow. 
+Robôs de serviço (em inglês, Service Robots) são aplicações robóticas em que robôs executam tarefas úteis para humanos podendo substituí-los em tarefas perigosas ou entediantes. Exemplos de ambientes em que robôs de serviço podem operar são hospitais e restaurantes. Sistemas multi-robos são normalmente aplicados nesses ambientes. Rizk et al. cite:[rizk_cooperative_2019] descreve um *workflow* para sistemas multi-robôs com 4 atividades principais: (i) decomposição de tarefas, (ii) formação de coalisão, (iii) alocação de tarefas e (iv) planejamento e controle.  Sendo que na maior parte de propostas da litaratura as atividades i, ii, iii são dirigidas por um operador humano. Uma aplicações com alto grau de autonomia, é definida por Rizk, como uma em que o software realize autonomamente as fases do workflow. 
 
 Desenvolver aplicações com auto-grau de autonomia é especialmente desafiador no domínio de robôs de serviço por conta da natureza não estruturada e aberta do ambiente  (non-structured, open-ended environments) em que esses robôs devem operar. Parte desse desafio na pesquisa e desenvolvimento nesse ambiente é o teste e validação do software de controle dos robôs. Nesse sentido, o RoboMax cite:[askarpour_robomax_2021] contribui com um repositório de descrição textual de aplicações multi-robôs em ambiente de serviço. No entanto o RoboMax não é uma solução completa pois (i) as descrições são em alto nível, não fornecendo detalhes sobre características do ambiente e dos robôs; (ii) a descrição dos cenários é textual, não havendo a infra-estrutura para execução do cenário. Por outro lado, simuladores tais quais Gazebo cite:[gazebo] são plataformas popularmente utilizadas que permitem o exercício do software controlador de robôs em ambiente simulado. O Gazebo inclui uma engine que simula a física e permite a inclusão de plugins para simular sensores e atuadores comumente presentes em robôs. No entanto simuladores tais quais o gazebo não são ambientes prontos para executar validação de uma aplicação robótica, sendo necessário um trabalho considerável para modelar o cenário, incluir os plugins adequados e preparar o ambiente para execução.
 
