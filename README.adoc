@@ -11,7 +11,7 @@ Genaína <genaina@unb.br>
 [[top]]
 [options="header"]
 |=======================
-|<<top,Home>>|<<Publications>>|<<Research Projects>>|<<Artifacts>>
+|<<top,Home>>|<<Chamada para trabalhos>>
 |=======================
 [.right.text-center]
 image::images/profile.jpg[role=left]
